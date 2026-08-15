@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>G.N.O. Beschikbaarheid — Seizoen 2026-2027</title>
+<style>
+  :root{
+    --bg:#0f172a; --panel:#1e293b; --panel2:#111c33; --line:#334155;
+    --txt:#e2e8f0; --muted:#94a3b8;
+    --green:#22c55e; --greenbg:#0f3d24;
+    --amber:#f59e0b; --amberbg:#3d2f0a;
+    --red:#ef4444; --redbg:#3d1414;
+    --grey:#475569; --greybg:#1b2536;
+    --accent:#38bdf8;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--txt);font-family:"Segoe UI",system-ui,Arial,sans-serif;font-size:14px}
+  .wrap{max-width:1200px;margin:0 auto;padding:24px}
+  header{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:16px;margin-bottom:20px}
+  h1{margin:0;font-size:26px}
+  h1 .sub{display:block;font-size:14px;color:var(--muted);font-weight:400;margin-top:4px}
+  .updated{font-size:12px;color:var(--muted)}
+  .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px;margin-bottom:22px}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px}
+  .card .k{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.5px}
+  .card .v{font-size:20px;font-weight:600;margin-top:6px}
+  .card.next{border-color:var(--accent)}
+  .legend{display:flex;flex-wrap:wrap;gap:16px;margin-bottom:14px;font-size:13px;color:var(--muted)}
+  .legend span{display:inline-flex;align-items:center;gap:6px}
+  .dot{width:14px;height:14px;border-radius:4px;display:inline-block}
+  .dot.g{background:var(--green)} .dot.a{background:var(--amber)} .dot.r{background:var(--red)} .dot.n{background:var(--grey)}
+  .tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:12px}
+  table{border-collapse:collapse;width:100%;min-width:900px}
+  th,td{padding:8px 6px;text-align:center;border-bottom:1px solid var(--line);white-space:nowrap}
+  thead th{position:sticky;top:0;background:var(--panel2);z-index:2;font-size:12px;color:var(--muted);font-weight:600}
+  .plname{writing-mode:vertical-rl;transform:rotate(180deg);height:70px;font-size:12px}
+  tbody tr:hover{background:#16233b}
+  td.match{text-align:left;position:sticky;left:0;background:var(--panel);z-index:1}
+  .match .d{font-weight:600}
+  .match .m{color:var(--muted);font-size:12px}
+  .badge{font-size:10px;padding:1px 6px;border-radius:6px;margin-left:4px;vertical-align:middle}
+  .badge.home{background:#0e2a4d;color:#7dd3fc}
+  .badge.away{background:#3a2440;color:#f0abfc}
+  .badge.beker{background:#3d2f0a;color:#fbbf24;border:1px solid #92670a}
+  .cell{font-weight:700;border-radius:6px}
+  .g{color:var(--green);background:var(--greenbg)} .a{color:var(--amber);background:var(--amberbg)}
+  .r{color:var(--red);background:var(--redbg)} .n{color:var(--muted);background:var(--greybg)}
+  td.opk{font-weight:700}
+  .opk-ok{color:var(--green)} .opk-warn{color:var(--amber)} .opk-bad{color:var(--red)}
+  tr.nextrow td{background:#13314a !important}
+  tr.nextrow td.match{box-shadow:inset 3px 0 0 var(--accent)}
+  .kcol{color:var(--accent)}
+  tr.nokeeper td.match{box-shadow:inset 4px 0 0 var(--red)}
+  tr.nokeeper td.opk{outline:1px solid var(--red)}
+  .foot{margin-top:16px;font-size:12px;color:var(--muted);line-height:1.6}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>G.N.O. — Beschikbaarheid
+      <span class="sub">ZFB Breda · 3e Klasse · Seizoen 2026–2027</span>
+    </h1>
+    <div class="updated">🔄 Laatst bijgewerkt: 15-08-2026 11:45 · <b>read-only</b> — bron: Outlook-invites (RSVP)</div>
+  </header>
+
+  <div class="cards" id="cards"></div>
+
+  <div class="legend">
+    <span><i class="dot g"></i> Aanwezig (Accepted)</span>
+    <span><i class="dot a"></i> Misschien (Tentative)</span>
+    <span><i class="dot r"></i> Afwezig (Declined)</span>
+    <span><i class="dot n"></i> Geen reactie</span>
+    <span style="margin-left:auto">🧤 Keeper-volgorde: Luuk (K1) → Michel (K2) → Yannik (K3). Er moet altijd één keeper aanwezig zijn.</span>
+  </div>
+
+  <div class="tablewrap">
+    <table id="tbl"></table>
+  </div>
+
+  <div class="foot">
+    <b>Zo werkt het:</b> spelers reageren met <b>Accepteren / Misschien / Afwijzen</b> op de Outlook-uitnodiging (in hun eigen agenda-app, ook op mobiel). Dit dashboard leest die reacties automatisch uit — <b>niemand hoeft iets in te vullen</b>. 🟥 = rij met te weinig spelers → tijd om subs te regelen. Refresh draait automatisch (o.a. ~1 week en ~24u vóór elke wedstrijd).
+    <br><i>Let op: onderstaande RSVP-data is fictief (voorbeeld). Bij de echte run komt dit uit je Outlook-invites.</i>
+  </div>
+</div>
+
+<script>
+const players = ["Luuk","Michel","Yannik","Godwin","Joël","Jeroen","Klaas","Ernst","Wim","Roel","Enrico"];
+const keeperRank = {Luuk:"K1",Michel:"K2",Yannik:"K3"};
+const keepers = ["Luuk","Michel","Yannik"];
+const halls = {Ba:"Sporthal de Huif, Bavel",HaB:"Sporthal Haagse Beemden, Breda",Oh:"Oosterheidehal, Oosterhout",Rijs:"'t Trefpunt, Rijsbergen",Wb:"Sporthal Driedorp, Wagenberg"};
+const matches = [
+ ["wo","16-9-2026","20:00","HaB","G.N.O.","Zimmer Biomet"],
+ ["wo","23-9-2026","19:30","Rijs","G.N.O.","zvv Expres-Boys Breda"],
+ ["wo","30-9-2026","21:00","HaB","G.N.O.","BOC '19"],
+ ["di","6-10-2026","21:00","Wb","G.N.O.","Esseboom Advies & FD"],
+ ["ma","26-10-2026","20:00","Oh","zv De Zware Jongens","G.N.O."],
+ ["wo","4-11-2026","20:00","HaB","zvv T.O.V.","G.N.O."],
+ ["ma","9-11-2026","20:00","Oh","zvv Internacional 2","G.N.O."],
+ ["ma","16-11-2026","22:00","Oh","Eversdijk","G.N.O."],
+ ["di","24-11-2026","19:30","Ba","Caribeans vibz","G.N.O.","BEKER"],
+ ["ma","30-11-2026","20:00","Oh","G.N.O.","De Zlatan's"],
+ ["do","10-12-2026","20:00","Rijs","Southern Pearl Rovers","G.N.O."],
+ ["do","17-12-2026","20:00","Oh","G.N.O.","Westphal Kozijnen"],
+ ["di","5-1-2027","19:30","Ba","Wsst Hill United","G.N.O."],
+ ["do","14-1-2027","20:00","Oh","Zimmer Biomet","G.N.O."],
+ ["di","19-1-2027","20:30","Ba","zvv Expres-Boys Breda","G.N.O."],
+ ["wo","27-1-2027","21:00","HaB","BOC '19","G.N.O."],
+ ["wo","3-2-2027","20:00","HaB","G.N.O.","FC LSW","BEKER"],
+ ["do","11-2-2027","21:00","Oh","G.N.O.","Wsst Hill United"],
+ ["di","16-2-2027","20:30","Ba","Esseboom Advies & FD","G.N.O."],
+ ["wo","3-3-2027","21:00","HaB","G.N.O.","zv De Zware Jongens"],
+ ["wo","10-3-2027","21:00","HaB","G.N.O.","zvv T.O.V."],
+ ["wo","17-3-2027","20:00","HaB","G.N.O.","zvv Internacional 2"],
+ ["wo","24-3-2027","19:30","Rijs","G.N.O.","Eversdijk"],
+ ["wo","31-3-2027","22:00","HaB","De Zlatan's","G.N.O."],
+ ["wo","7-4-2027","20:00","HaB","G.N.O.","Southern Pearl Rovers"],
+ ["wo","14-4-2027","20:30","Rijs","Westphal Kozijnen","G.N.O."],
+];
+// deterministic pseudo-random RSVP for the demo
+function rng(s){return function(){s=(s*1103515245+12345)&0x7fffffff;return s/0x7fffffff;}}
+const statuses=["g","g","g","g","a","r","n"]; // weighted toward present
+const nextIdx=0; // first upcoming match highlighted
+const sym={g:"✓",a:"?",r:"✗",n:"·"};
+
+let rnd=rng(42);
+const data=matches.map(()=>players.map(()=>statuses[Math.floor(rnd()*statuses.length)]));
+// force Godwin present everywhere (organizer)
+data.forEach(r=>r[0]="g");
+
+// table
+let html="<thead><tr><th style='text-align:left'>Wedstrijd</th><th>Zaal</th>";
+players.forEach(p=>{const k=keeperRank[p];html+=`<th class="${k?'kcol':''}"><div class="plname">${k?'🧤 ':''}${p}${k?' '+k:''}</div></th>`;});
+html+="<th>Keeper</th><th>Opkomst</th></tr></thead><tbody>";
+matches.forEach((m,i)=>{
+  const home=m[4]==="G.N.O.";
+  const opp=home?m[5]:m[4];
+  const isBeker=m[6]==="BEKER";
+  const cnt=data[i].filter(s=>s==="g").length;
+  const opk=cnt>=6?"opk-ok":(cnt>=5?"opk-warn":"opk-bad");
+  // keeper check
+  const kPresent=keepers.filter(k=>data[i][players.indexOf(k)]==="g");
+  const kMaybe=keepers.filter(k=>data[i][players.indexOf(k)]==="a");
+  const kCell=kPresent.length
+    ? `<td class="opk opk-ok" title="${kPresent.join(', ')}">🧤 ${keeperRank[kPresent[0]]}</td>`
+    : (kMaybe.length ? `<td class="opk opk-warn" title="alleen misschien: ${kMaybe.join(', ')}">🧤 ?</td>`
+    : `<td class="opk opk-bad">🧤 GEEN!</td>`);
+  const rowcls=(i===nextIdx?"nextrow ":"")+(kPresent.length?"":"nokeeper");
+  html+=`<tr class="${rowcls}"><td class="match"><span class="d">${m[1]}</span> <span class="m">${m[0]} ${m[2]}</span><br><span class="m">${opp}</span><span class="badge ${home?'home':'away'}">${home?'THUIS':'UIT'}</span>${isBeker?'<span class="badge beker">BEKER</span>':''}</td>`;
+  html+=`<td class="m" title="${halls[m[3]]||''}">${m[3]}</td>`;
+  data[i].forEach(s=>html+=`<td class="cell ${s}">${sym[s]}</td>`);
+  html+=kCell;
+  html+=`<td class="opk ${opk}">${cnt}</td></tr>`;
+});
+html+="</tbody>";
+document.getElementById("tbl").innerHTML=html;
+
+// summary cards
+const n=matches[nextIdx];
+const nOpp=n[4]==="G.N.O."?n[5]:n[4];
+const nCnt=data[nextIdx].filter(s=>s==="g").length;
+const nMaybe=data[nextIdx].filter(s=>s==="a").length;
+const lowGames=matches.filter((m,i)=>data[i].filter(s=>s==="g").length<5).length;
+const noKeeperGames=matches.filter((m,i)=>!keepers.some(k=>data[i][players.indexOf(k)]==="g")).length;
+const nKeeper=keepers.filter(k=>data[nextIdx][players.indexOf(k)]==="g");
+const avg=(data.reduce((a,r)=>a+r.filter(s=>s==="g").length,0)/matches.length).toFixed(1);
+document.getElementById("cards").innerHTML=`
+  <div class="card next"><div class="k">Volgende wedstrijd</div><div class="v">${n[1]} · ${n[2]}</div><div class="k" style="margin-top:6px">${n[4]==="G.N.O."?"thuis vs":"uit bij"} ${nOpp} · ${n[3]}</div></div>
+  <div class="card"><div class="k">Zeker aanwezig</div><div class="v" style="color:var(--green)">${nCnt} spelers</div><div class="k" style="margin-top:6px">+ ${nMaybe} misschien</div></div>
+  <div class="card"><div class="k">Keeper volgende wedstrijd</div><div class="v" style="color:${nKeeper.length?'var(--green)':'var(--red)'}">${nKeeper.length?'🧤 '+nKeeper[0]:'🧤 GEEN!'}</div><div class="k" style="margin-top:6px">${nKeeper.length?keeperRank[nKeeper[0]]+' aanwezig':'regel een keeper!'}</div></div>
+  <div class="card"><div class="k">Aandacht nodig</div><div class="v" style="color:${(lowGames||noKeeperGames)?'var(--red)':'var(--green)'}">${noKeeperGames} zonder keeper</div><div class="k" style="margin-top:6px">${lowGames} wedstrijden < 5 spelers</div></div>`;
+</script>
+</body>
+</html>
