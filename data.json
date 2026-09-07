@@ -1,0 +1,586 @@
+{
+ "team": "gno",
+ "teamLabel": "G.N.O.",
+ "updated": "2026-09-07T11:04:55.514Z",
+ "players": [
+  "Luuk",
+  "Michel",
+  "Yannik",
+  "Godwin",
+  "Joël",
+  "Jeroen",
+  "Klaas",
+  "Ernst",
+  "Wim",
+  "Roel",
+  "Enrico"
+ ],
+ "keepers": [
+  "Luuk",
+  "Michel",
+  "Yannik"
+ ],
+ "keeperRank": {
+  "Luuk": "K1",
+  "Michel": "K2",
+  "Yannik": "K3"
+ },
+ "halls": {
+  "Ba": "Sporthal de Huif (Ba), Deken Dr. Dirckxweg 4, 4854 AB Bavel",
+  "HaB": "Sporthal Haagse Beemden (HaB), De Ganzerik 1, 4822 RK Breda",
+  "Oh": "Sporthal Oosterheidehal (Oh), Lodewijk Napoleonlaan 111, 4904 LH Oosterhout",
+  "Rijs": "'t Trefpunt Rijsbergen (Rijs), Laguitensebaan 60A, 4891 XR Rijsbergen",
+  "Wb": "Sporthal Driedorp (Wb), Kerkstraat 11, 4845 EC Wagenberg"
+ },
+ "matches": [
+  {
+   "subject": "G.N.O. vs Zimmer Biomet",
+   "start": "2026-09-16T20:00:00",
+   "datum": "16-9-2026",
+   "tijd": "20:00",
+   "zaal": "HaB",
+   "beker": false
+  },
+  {
+   "subject": "G.N.O. vs zvv Expres-Boys Breda",
+   "start": "2026-09-23T19:30:00",
+   "datum": "23-9-2026",
+   "tijd": "19:30",
+   "zaal": "Rijs",
+   "beker": false
+  },
+  {
+   "subject": "G.N.O. vs BOC '19",
+   "start": "2026-09-30T21:00:00",
+   "datum": "30-9-2026",
+   "tijd": "21:00",
+   "zaal": "HaB",
+   "beker": false
+  },
+  {
+   "subject": "G.N.O. vs Esseboom Advies & FD",
+   "start": "2026-10-06T21:00:00",
+   "datum": "6-10-2026",
+   "tijd": "21:00",
+   "zaal": "Wb",
+   "beker": false
+  },
+  {
+   "subject": "zv De Zware Jongens vs G.N.O.",
+   "start": "2026-10-26T20:00:00",
+   "datum": "26-10-2026",
+   "tijd": "20:00",
+   "zaal": "Oh",
+   "beker": false
+  },
+  {
+   "subject": "zvv T.O.V. vs G.N.O.",
+   "start": "2026-11-04T20:00:00",
+   "datum": "4-11-2026",
+   "tijd": "20:00",
+   "zaal": "HaB",
+   "beker": false
+  },
+  {
+   "subject": "zvv Internacional 2 vs G.N.O.",
+   "start": "2026-11-09T20:00:00",
+   "datum": "9-11-2026",
+   "tijd": "20:00",
+   "zaal": "Oh",
+   "beker": false
+  },
+  {
+   "subject": "Eversdijk vs G.N.O.",
+   "start": "2026-11-16T22:00:00",
+   "datum": "16-11-2026",
+   "tijd": "22:00",
+   "zaal": "Oh",
+   "beker": false
+  },
+  {
+   "subject": "[Beker] Caribeans vibz vs G.N.O.",
+   "start": "2026-11-24T19:30:00",
+   "datum": "24-11-2026",
+   "tijd": "19:30",
+   "zaal": "Ba",
+   "beker": true
+  },
+  {
+   "subject": "G.N.O. vs De Zlatan's",
+   "start": "2026-11-30T20:00:00",
+   "datum": "30-11-2026",
+   "tijd": "20:00",
+   "zaal": "Oh",
+   "beker": false
+  },
+  {
+   "subject": "Southern Pearl Rovers vs G.N.O.",
+   "start": "2026-12-10T20:00:00",
+   "datum": "10-12-2026",
+   "tijd": "20:00",
+   "zaal": "Rijs",
+   "beker": false
+  },
+  {
+   "subject": "G.N.O. vs Westphal Kozijnen",
+   "start": "2026-12-17T20:00:00",
+   "datum": "17-12-2026",
+   "tijd": "20:00",
+   "zaal": "Oh",
+   "beker": false
+  },
+  {
+   "subject": "Wsst Hill United vs G.N.O.",
+   "start": "2027-01-05T19:30:00",
+   "datum": "5-1-2027",
+   "tijd": "19:30",
+   "zaal": "Ba",
+   "beker": false
+  },
+  {
+   "subject": "Zimmer Biomet vs G.N.O.",
+   "start": "2027-01-14T20:00:00",
+   "datum": "14-1-2027",
+   "tijd": "20:00",
+   "zaal": "Oh",
+   "beker": false
+  },
+  {
+   "subject": "zvv Expres-Boys Breda vs G.N.O.",
+   "start": "2027-01-19T20:30:00",
+   "datum": "19-1-2027",
+   "tijd": "20:30",
+   "zaal": "Ba",
+   "beker": false
+  },
+  {
+   "subject": "BOC '19 vs G.N.O.",
+   "start": "2027-01-27T21:00:00",
+   "datum": "27-1-2027",
+   "tijd": "21:00",
+   "zaal": "HaB",
+   "beker": false
+  },
+  {
+   "subject": "[Beker] G.N.O. vs FC LSW",
+   "start": "2027-02-03T20:00:00",
+   "datum": "3-2-2027",
+   "tijd": "20:00",
+   "zaal": "HaB",
+   "beker": true
+  },
+  {
+   "subject": "G.N.O. vs Wsst Hill United",
+   "start": "2027-02-11T21:00:00",
+   "datum": "11-2-2027",
+   "tijd": "21:00",
+   "zaal": "Oh",
+   "beker": false
+  },
+  {
+   "subject": "Esseboom Advies & FD vs G.N.O.",
+   "start": "2027-02-16T20:30:00",
+   "datum": "16-2-2027",
+   "tijd": "20:30",
+   "zaal": "Ba",
+   "beker": false
+  },
+  {
+   "subject": "G.N.O. vs zv De Zware Jongens",
+   "start": "2027-03-03T21:00:00",
+   "datum": "3-3-2027",
+   "tijd": "21:00",
+   "zaal": "HaB",
+   "beker": false
+  },
+  {
+   "subject": "G.N.O. vs zvv T.O.V.",
+   "start": "2027-03-10T21:00:00",
+   "datum": "10-3-2027",
+   "tijd": "21:00",
+   "zaal": "HaB",
+   "beker": false
+  },
+  {
+   "subject": "G.N.O. vs zvv Internacional 2",
+   "start": "2027-03-17T20:00:00",
+   "datum": "17-3-2027",
+   "tijd": "20:00",
+   "zaal": "HaB",
+   "beker": false
+  },
+  {
+   "subject": "G.N.O. vs Eversdijk",
+   "start": "2027-03-24T19:30:00",
+   "datum": "24-3-2027",
+   "tijd": "19:30",
+   "zaal": "Rijs",
+   "beker": false
+  },
+  {
+   "subject": "De Zlatan's vs G.N.O.",
+   "start": "2027-03-31T22:00:00",
+   "datum": "31-3-2027",
+   "tijd": "22:00",
+   "zaal": "HaB",
+   "beker": false
+  },
+  {
+   "subject": "G.N.O. vs Southern Pearl Rovers",
+   "start": "2027-04-07T20:00:00",
+   "datum": "7-4-2027",
+   "tijd": "20:00",
+   "zaal": "HaB",
+   "beker": false
+  },
+  {
+   "subject": "Westphal Kozijnen vs G.N.O.",
+   "start": "2027-04-14T20:30:00",
+   "datum": "14-4-2027",
+   "tijd": "20:30",
+   "zaal": "Rijs",
+   "beker": false
+  }
+ ],
+ "status": {
+  "G.N.O. vs Zimmer Biomet": {
+   "Luuk": "g",
+   "Michel": "g",
+   "Yannik": "n",
+   "Godwin": "g",
+   "Joël": "g",
+   "Jeroen": "r",
+   "Klaas": "a",
+   "Ernst": "n",
+   "Wim": "g",
+   "Roel": "n",
+   "Enrico": "n"
+  },
+  "G.N.O. vs zvv Expres-Boys Breda": {
+   "Luuk": "g",
+   "Michel": "g",
+   "Yannik": "n",
+   "Godwin": "g",
+   "Joël": "g",
+   "Jeroen": "r",
+   "Klaas": "a",
+   "Ernst": "n",
+   "Wim": "g",
+   "Roel": "n",
+   "Enrico": "n"
+  },
+  "G.N.O. vs BOC '19": {
+   "Luuk": "g",
+   "Michel": "g",
+   "Yannik": "n",
+   "Godwin": "g",
+   "Joël": "g",
+   "Jeroen": "n",
+   "Klaas": "a",
+   "Ernst": "n",
+   "Wim": "g",
+   "Roel": "n",
+   "Enrico": "n"
+  },
+  "G.N.O. vs Esseboom Advies & FD": {
+   "Luuk": "g",
+   "Michel": "g",
+   "Yannik": "n",
+   "Godwin": "g",
+   "Joël": "g",
+   "Jeroen": "n",
+   "Klaas": "a",
+   "Ernst": "n",
+   "Wim": "g",
+   "Roel": "n",
+   "Enrico": "n"
+  },
+  "zv De Zware Jongens vs G.N.O.": {
+   "Luuk": "g",
+   "Michel": "g",
+   "Yannik": "n",
+   "Godwin": "g",
+   "Joël": "g",
+   "Jeroen": "n",
+   "Klaas": "a",
+   "Ernst": "n",
+   "Wim": "g",
+   "Roel": "n",
+   "Enrico": "n"
+  },
+  "zvv T.O.V. vs G.N.O.": {
+   "Luuk": "g",
+   "Michel": "r",
+   "Yannik": "n",
+   "Godwin": "g",
+   "Joël": "g",
+   "Jeroen": "n",
+   "Klaas": "a",
+   "Ernst": "n",
+   "Wim": "g",
+   "Roel": "n",
+   "Enrico": "n"
+  },
+  "zvv Internacional 2 vs G.N.O.": {
+   "Luuk": "g",
+   "Michel": "g",
+   "Yannik": "n",
+   "Godwin": "g",
+   "Joël": "g",
+   "Jeroen": "n",
+   "Klaas": "a",
+   "Ernst": "n",
+   "Wim": "g",
+   "Roel": "n",
+   "Enrico": "n"
+  },
+  "Eversdijk vs G.N.O.": {
+   "Luuk": "g",
+   "Michel": "r",
+   "Yannik": "n",
+   "Godwin": "g",
+   "Joël": "g",
+   "Jeroen": "n",
+   "Klaas": "a",
+   "Ernst": "n",
+   "Wim": "g",
+   "Roel": "n",
+   "Enrico": "n"
+  },
+  "[Beker] Caribeans vibz vs G.N.O.": {
+   "Luuk": "g",
+   "Michel": "r",
+   "Yannik": "n",
+   "Godwin": "g",
+   "Joël": "g",
+   "Jeroen": "n",
+   "Klaas": "a",
+   "Ernst": "n",
+   "Wim": "g",
+   "Roel": "n",
+   "Enrico": "n"
+  },
+  "G.N.O. vs De Zlatan's": {
+   "Luuk": "a",
+   "Michel": "r",
+   "Yannik": "n",
+   "Godwin": "g",
+   "Joël": "g",
+   "Jeroen": "n",
+   "Klaas": "a",
+   "Ernst": "n",
+   "Wim": "g",
+   "Roel": "n",
+   "Enrico": "n"
+  },
+  "Southern Pearl Rovers vs G.N.O.": {
+   "Luuk": "a",
+   "Michel": "r",
+   "Yannik": "n",
+   "Godwin": "g",
+   "Joël": "g",
+   "Jeroen": "n",
+   "Klaas": "a",
+   "Ernst": "n",
+   "Wim": "g",
+   "Roel": "n",
+   "Enrico": "n"
+  },
+  "G.N.O. vs Westphal Kozijnen": {
+   "Luuk": "a",
+   "Michel": "r",
+   "Yannik": "n",
+   "Godwin": "g",
+   "Joël": "g",
+   "Jeroen": "n",
+   "Klaas": "a",
+   "Ernst": "n",
+   "Wim": "g",
+   "Roel": "n",
+   "Enrico": "n"
+  },
+  "Wsst Hill United vs G.N.O.": {
+   "Luuk": "g",
+   "Michel": "g",
+   "Yannik": "n",
+   "Godwin": "g",
+   "Joël": "g",
+   "Jeroen": "n",
+   "Klaas": "a",
+   "Ernst": "n",
+   "Wim": "g",
+   "Roel": "n",
+   "Enrico": "n"
+  },
+  "Zimmer Biomet vs G.N.O.": {
+   "Luuk": "a",
+   "Michel": "g",
+   "Yannik": "n",
+   "Godwin": "g",
+   "Joël": "g",
+   "Jeroen": "n",
+   "Klaas": "a",
+   "Ernst": "n",
+   "Wim": "g",
+   "Roel": "n",
+   "Enrico": "n"
+  },
+  "zvv Expres-Boys Breda vs G.N.O.": {
+   "Luuk": "g",
+   "Michel": "g",
+   "Yannik": "n",
+   "Godwin": "r",
+   "Joël": "g",
+   "Jeroen": "n",
+   "Klaas": "a",
+   "Ernst": "n",
+   "Wim": "g",
+   "Roel": "n",
+   "Enrico": "n"
+  },
+  "BOC '19 vs G.N.O.": {
+   "Luuk": "g",
+   "Michel": "g",
+   "Yannik": "n",
+   "Godwin": "g",
+   "Joël": "g",
+   "Jeroen": "n",
+   "Klaas": "a",
+   "Ernst": "n",
+   "Wim": "g",
+   "Roel": "n",
+   "Enrico": "n"
+  },
+  "[Beker] G.N.O. vs FC LSW": {
+   "Luuk": "g",
+   "Michel": "g",
+   "Yannik": "n",
+   "Godwin": "g",
+   "Joël": "g",
+   "Jeroen": "n",
+   "Klaas": "a",
+   "Ernst": "n",
+   "Wim": "g",
+   "Roel": "n",
+   "Enrico": "n"
+  },
+  "G.N.O. vs Wsst Hill United": {
+   "Luuk": "a",
+   "Michel": "g",
+   "Yannik": "n",
+   "Godwin": "g",
+   "Joël": "g",
+   "Jeroen": "n",
+   "Klaas": "a",
+   "Ernst": "n",
+   "Wim": "g",
+   "Roel": "n",
+   "Enrico": "n"
+  },
+  "Esseboom Advies & FD vs G.N.O.": {
+   "Luuk": "g",
+   "Michel": "g",
+   "Yannik": "n",
+   "Godwin": "g",
+   "Joël": "g",
+   "Jeroen": "n",
+   "Klaas": "a",
+   "Ernst": "n",
+   "Wim": "g",
+   "Roel": "n",
+   "Enrico": "n"
+  },
+  "G.N.O. vs zv De Zware Jongens": {
+   "Luuk": "g",
+   "Michel": "g",
+   "Yannik": "n",
+   "Godwin": "g",
+   "Joël": "g",
+   "Jeroen": "n",
+   "Klaas": "a",
+   "Ernst": "n",
+   "Wim": "g",
+   "Roel": "n",
+   "Enrico": "n"
+  },
+  "G.N.O. vs zvv T.O.V.": {
+   "Luuk": "g",
+   "Michel": "g",
+   "Yannik": "n",
+   "Godwin": "g",
+   "Joël": "g",
+   "Jeroen": "n",
+   "Klaas": "a",
+   "Ernst": "n",
+   "Wim": "g",
+   "Roel": "n",
+   "Enrico": "n"
+  },
+  "G.N.O. vs zvv Internacional 2": {
+   "Luuk": "g",
+   "Michel": "g",
+   "Yannik": "n",
+   "Godwin": "r",
+   "Joël": "g",
+   "Jeroen": "n",
+   "Klaas": "a",
+   "Ernst": "n",
+   "Wim": "g",
+   "Roel": "n",
+   "Enrico": "n"
+  },
+  "G.N.O. vs Eversdijk": {
+   "Luuk": "g",
+   "Michel": "g",
+   "Yannik": "n",
+   "Godwin": "g",
+   "Joël": "g",
+   "Jeroen": "n",
+   "Klaas": "a",
+   "Ernst": "n",
+   "Wim": "g",
+   "Roel": "n",
+   "Enrico": "n"
+  },
+  "De Zlatan's vs G.N.O.": {
+   "Luuk": "g",
+   "Michel": "g",
+   "Yannik": "n",
+   "Godwin": "g",
+   "Joël": "g",
+   "Jeroen": "n",
+   "Klaas": "a",
+   "Ernst": "n",
+   "Wim": "g",
+   "Roel": "n",
+   "Enrico": "n"
+  },
+  "G.N.O. vs Southern Pearl Rovers": {
+   "Luuk": "g",
+   "Michel": "g",
+   "Yannik": "n",
+   "Godwin": "g",
+   "Joël": "g",
+   "Jeroen": "n",
+   "Klaas": "a",
+   "Ernst": "n",
+   "Wim": "g",
+   "Roel": "n",
+   "Enrico": "n"
+  },
+  "Westphal Kozijnen vs G.N.O.": {
+   "Luuk": "g",
+   "Michel": "g",
+   "Yannik": "n",
+   "Godwin": "g",
+   "Joël": "g",
+   "Jeroen": "n",
+   "Klaas": "a",
+   "Ernst": "n",
+   "Wim": "g",
+   "Roel": "n",
+   "Enrico": "n"
+  }
+ },
+ "manual": {}
+}
