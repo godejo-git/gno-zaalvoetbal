@@ -1,7 +1,7 @@
 {
  "team": "gno",
  "teamLabel": "G.N.O.",
- "updated": "2026-09-07T12:10:59.105Z",
+ "updated": "2026-09-09T06:38:14.352Z",
  "players": [
   "Luuk",
   "Michel",
@@ -246,7 +246,7 @@
   "G.N.O. vs Zimmer Biomet": {
    "Luuk": "g",
    "Michel": "g",
-   "Yannik": "n",
+   "Yannik": "g",
    "Godwin": "g",
    "Joël": "g",
    "Jeroen": "r",
@@ -259,7 +259,7 @@
   "G.N.O. vs zvv Expres-Boys Breda": {
    "Luuk": "g",
    "Michel": "g",
-   "Yannik": "n",
+   "Yannik": "g",
    "Godwin": "g",
    "Joël": "g",
    "Jeroen": "r",
@@ -272,7 +272,7 @@
   "G.N.O. vs BOC '19": {
    "Luuk": "g",
    "Michel": "g",
-   "Yannik": "n",
+   "Yannik": "g",
    "Godwin": "g",
    "Joël": "g",
    "Jeroen": "n",
@@ -285,7 +285,7 @@
   "G.N.O. vs Esseboom Advies & FD": {
    "Luuk": "g",
    "Michel": "g",
-   "Yannik": "n",
+   "Yannik": "g",
    "Godwin": "g",
    "Joël": "g",
    "Jeroen": "n",
@@ -298,7 +298,7 @@
   "zv De Zware Jongens vs G.N.O.": {
    "Luuk": "g",
    "Michel": "g",
-   "Yannik": "n",
+   "Yannik": "g",
    "Godwin": "g",
    "Joël": "g",
    "Jeroen": "n",
@@ -311,7 +311,7 @@
   "zvv T.O.V. vs G.N.O.": {
    "Luuk": "g",
    "Michel": "r",
-   "Yannik": "n",
+   "Yannik": "g",
    "Godwin": "g",
    "Joël": "g",
    "Jeroen": "n",
@@ -324,7 +324,7 @@
   "zvv Internacional 2 vs G.N.O.": {
    "Luuk": "g",
    "Michel": "g",
-   "Yannik": "n",
+   "Yannik": "g",
    "Godwin": "g",
    "Joël": "g",
    "Jeroen": "n",
@@ -337,7 +337,7 @@
   "Eversdijk vs G.N.O.": {
    "Luuk": "g",
    "Michel": "r",
-   "Yannik": "n",
+   "Yannik": "r",
    "Godwin": "g",
    "Joël": "g",
    "Jeroen": "n",
@@ -350,7 +350,7 @@
   "[Beker] Caribeans vibz vs G.N.O.": {
    "Luuk": "g",
    "Michel": "r",
-   "Yannik": "n",
+   "Yannik": "g",
    "Godwin": "g",
    "Joël": "g",
    "Jeroen": "n",
@@ -363,7 +363,7 @@
   "G.N.O. vs De Zlatan's": {
    "Luuk": "a",
    "Michel": "r",
-   "Yannik": "n",
+   "Yannik": "g",
    "Godwin": "g",
    "Joël": "g",
    "Jeroen": "n",
@@ -376,7 +376,7 @@
   "Southern Pearl Rovers vs G.N.O.": {
    "Luuk": "a",
    "Michel": "r",
-   "Yannik": "n",
+   "Yannik": "g",
    "Godwin": "g",
    "Joël": "g",
    "Jeroen": "n",
@@ -389,7 +389,7 @@
   "G.N.O. vs Westphal Kozijnen": {
    "Luuk": "a",
    "Michel": "r",
-   "Yannik": "n",
+   "Yannik": "g",
    "Godwin": "g",
    "Joël": "g",
    "Jeroen": "n",
@@ -402,7 +402,7 @@
   "Wsst Hill United vs G.N.O.": {
    "Luuk": "g",
    "Michel": "g",
-   "Yannik": "n",
+   "Yannik": "g",
    "Godwin": "g",
    "Joël": "g",
    "Jeroen": "n",
@@ -415,7 +415,7 @@
   "Zimmer Biomet vs G.N.O.": {
    "Luuk": "a",
    "Michel": "g",
-   "Yannik": "n",
+   "Yannik": "g",
    "Godwin": "g",
    "Joël": "g",
    "Jeroen": "n",
@@ -428,7 +428,7 @@
   "zvv Expres-Boys Breda vs G.N.O.": {
    "Luuk": "g",
    "Michel": "g",
-   "Yannik": "n",
+   "Yannik": "g",
    "Godwin": "r",
    "Joël": "g",
    "Jeroen": "n",
@@ -441,7 +441,7 @@
   "BOC '19 vs G.N.O.": {
    "Luuk": "g",
    "Michel": "g",
-   "Yannik": "n",
+   "Yannik": "g",
    "Godwin": "g",
    "Joël": "g",
    "Jeroen": "n",
