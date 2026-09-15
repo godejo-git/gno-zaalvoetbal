@@ -1,7 +1,7 @@
 {
  "team": "gno",
  "teamLabel": "G.N.O.",
- "updated": "2026-09-10T06:30:32.130Z",
+ "updated": "2026-09-15T07:40:02.593Z",
  "players": [
   "Luuk",
   "Michel",
@@ -99,9 +99,9 @@
   },
   {
    "subject": "[Beker] Caribeans vibz vs G.N.O.",
-   "start": "2026-11-24T19:30:00",
+   "start": "2026-11-24T20:00:00",
    "datum": "24-11-2026",
-   "tijd": "19:30",
+   "tijd": "20:00",
    "zaal": "Ba",
    "beker": true
   },
@@ -131,9 +131,9 @@
   },
   {
    "subject": "Wsst Hill United vs G.N.O.",
-   "start": "2027-01-05T19:30:00",
+   "start": "2027-01-05T20:00:00",
    "datum": "5-1-2027",
-   "tijd": "19:30",
+   "tijd": "20:00",
    "zaal": "Ba",
    "beker": false
   },
@@ -147,9 +147,9 @@
   },
   {
    "subject": "zvv Expres-Boys Breda vs G.N.O.",
-   "start": "2027-01-19T20:30:00",
+   "start": "2027-01-19T21:00:00",
    "datum": "19-1-2027",
-   "tijd": "20:30",
+   "tijd": "21:00",
    "zaal": "Ba",
    "beker": false
   },
@@ -248,13 +248,13 @@
    "Michel": "g",
    "Yannik": "g",
    "Godwin": "g",
-   "Joël": "g",
+   "Joël": "r",
    "Jeroen": "r",
    "Klaas": "a",
    "Ernst": "g",
    "Wim": "g",
    "Roel": "n",
-   "Enrico": "n"
+   "Enrico": "g"
   },
   "G.N.O. vs zvv Expres-Boys Breda": {
    "Luuk": "g",
@@ -582,5 +582,10 @@
    "Enrico": "n"
   }
  },
- "manual": {}
+ "manual": {
+  "G.N.O. vs Zimmer Biomet": [
+   "Joël",
+   "Enrico"
+  ]
+ }
 }
