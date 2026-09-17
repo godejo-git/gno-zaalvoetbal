@@ -1,7 +1,7 @@
 {
  "team": "gno",
  "teamLabel": "G.N.O.",
- "updated": "2026-09-15T07:40:02.593Z",
+ "updated": "2026-09-17T09:12:07.426Z",
  "players": [
   "Luuk",
   "Michel",
@@ -264,10 +264,10 @@
    "Joël": "g",
    "Jeroen": "r",
    "Klaas": "a",
-   "Ernst": "n",
+   "Ernst": "g",
    "Wim": "g",
    "Roel": "n",
-   "Enrico": "n"
+   "Enrico": "g"
   },
   "G.N.O. vs BOC '19": {
    "Luuk": "g",
@@ -280,7 +280,7 @@
    "Ernst": "n",
    "Wim": "g",
    "Roel": "n",
-   "Enrico": "n"
+   "Enrico": "g"
   },
   "G.N.O. vs Esseboom Advies & FD": {
    "Luuk": "g",
@@ -585,6 +585,13 @@
  "manual": {
   "G.N.O. vs Zimmer Biomet": [
    "Joël",
+   "Enrico"
+  ],
+  "G.N.O. vs zvv Expres-Boys Breda": [
+   "Enrico",
+   "Ernst"
+  ],
+  "G.N.O. vs BOC '19": [
    "Enrico"
   ]
  }
