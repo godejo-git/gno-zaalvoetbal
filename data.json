@@ -1,7 +1,7 @@
 {
  "team": "gno",
  "teamLabel": "G.N.O.",
- "updated": "2026-09-17T09:12:07.426Z",
+ "updated": "2026-09-18T06:20:10.494Z",
  "players": [
   "Luuk",
   "Michel",
@@ -250,10 +250,10 @@
    "Godwin": "g",
    "Joël": "r",
    "Jeroen": "r",
-   "Klaas": "a",
+   "Klaas": "r",
    "Ernst": "g",
    "Wim": "g",
-   "Roel": "n",
+   "Roel": "r",
    "Enrico": "g"
   },
   "G.N.O. vs zvv Expres-Boys Breda": {
@@ -387,7 +387,7 @@
    "Enrico": "n"
   },
   "G.N.O. vs Westphal Kozijnen": {
-   "Luuk": "a",
+   "Luuk": "r",
    "Michel": "r",
    "Yannik": "g",
    "Godwin": "g",
