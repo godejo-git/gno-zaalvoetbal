@@ -1,7 +1,7 @@
 {
  "team": "gno",
  "teamLabel": "G.N.O.",
- "updated": "2026-09-21T06:17:13.375Z",
+ "updated": "2026-09-22T06:17:19.350Z",
  "players": [
   "Luuk",
   "Michel",
@@ -267,14 +267,14 @@
    "Ernst": "a",
    "Wim": "g",
    "Roel": "n",
-   "Enrico": "g"
+   "Enrico": "a"
   },
   "G.N.O. vs BOC '19": {
    "Luuk": "g",
    "Michel": "g",
    "Yannik": "g",
    "Godwin": "g",
-   "Joël": "g",
+   "Joël": "a",
    "Jeroen": "n",
    "Klaas": "r",
    "Ernst": "g",
@@ -587,11 +587,12 @@
    "Joël",
    "Enrico"
   ],
-  "G.N.O. vs zvv Expres-Boys Breda": [
+  "G.N.O. vs BOC '19": [
+   "Joël",
    "Enrico",
    "Ernst"
   ],
-  "G.N.O. vs BOC '19": [
+  "G.N.O. vs zvv Expres-Boys Breda": [
    "Enrico",
    "Ernst"
   ]
