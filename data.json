@@ -1,7 +1,7 @@
 {
  "team": "gno",
  "teamLabel": "G.N.O.",
- "updated": "2026-09-28T06:45:27.966Z",
+ "updated": "2026-09-29T06:37:54.759Z",
  "players": [
   "Luuk",
   "Michel",
@@ -274,10 +274,10 @@
    "Michel": "g",
    "Yannik": "g",
    "Godwin": "g",
-   "Joël": "r",
-   "Jeroen": "n",
+   "Joël": "g",
+   "Jeroen": "r",
    "Klaas": "r",
-   "Ernst": "g",
+   "Ernst": "a",
    "Wim": "a",
    "Roel": "n",
    "Enrico": "a"
@@ -288,7 +288,7 @@
    "Yannik": "g",
    "Godwin": "g",
    "Joël": "g",
-   "Jeroen": "n",
+   "Jeroen": "r",
    "Klaas": "a",
    "Ernst": "n",
    "Wim": "g",
@@ -301,7 +301,7 @@
    "Yannik": "g",
    "Godwin": "g",
    "Joël": "g",
-   "Jeroen": "n",
+   "Jeroen": "r",
    "Klaas": "a",
    "Ernst": "n",
    "Wim": "g",
@@ -314,7 +314,7 @@
    "Yannik": "g",
    "Godwin": "g",
    "Joël": "g",
-   "Jeroen": "n",
+   "Jeroen": "r",
    "Klaas": "a",
    "Ernst": "n",
    "Wim": "g",
@@ -327,7 +327,7 @@
    "Yannik": "g",
    "Godwin": "g",
    "Joël": "g",
-   "Jeroen": "n",
+   "Jeroen": "r",
    "Klaas": "a",
    "Ernst": "n",
    "Wim": "g",
@@ -340,7 +340,7 @@
    "Yannik": "r",
    "Godwin": "g",
    "Joël": "g",
-   "Jeroen": "n",
+   "Jeroen": "r",
    "Klaas": "a",
    "Ernst": "n",
    "Wim": "g",
@@ -353,7 +353,7 @@
    "Yannik": "g",
    "Godwin": "g",
    "Joël": "g",
-   "Jeroen": "n",
+   "Jeroen": "r",
    "Klaas": "a",
    "Ernst": "n",
    "Wim": "g",
@@ -366,7 +366,7 @@
    "Yannik": "g",
    "Godwin": "g",
    "Joël": "g",
-   "Jeroen": "n",
+   "Jeroen": "r",
    "Klaas": "a",
    "Ernst": "n",
    "Wim": "g",
@@ -374,12 +374,12 @@
    "Enrico": "n"
   },
   "Southern Pearl Rovers vs G.N.O.": {
-   "Luuk": "a",
+   "Luuk": "g",
    "Michel": "r",
    "Yannik": "g",
    "Godwin": "g",
    "Joël": "g",
-   "Jeroen": "n",
+   "Jeroen": "r",
    "Klaas": "a",
    "Ernst": "n",
    "Wim": "g",
@@ -387,12 +387,12 @@
    "Enrico": "n"
   },
   "G.N.O. vs Westphal Kozijnen": {
-   "Luuk": "r",
+   "Luuk": "g",
    "Michel": "r",
    "Yannik": "g",
    "Godwin": "g",
    "Joël": "g",
-   "Jeroen": "n",
+   "Jeroen": "r",
    "Klaas": "a",
    "Ernst": "n",
    "Wim": "g",
@@ -405,7 +405,7 @@
    "Yannik": "g",
    "Godwin": "g",
    "Joël": "g",
-   "Jeroen": "n",
+   "Jeroen": "r",
    "Klaas": "a",
    "Ernst": "n",
    "Wim": "g",
@@ -418,7 +418,7 @@
    "Yannik": "g",
    "Godwin": "g",
    "Joël": "g",
-   "Jeroen": "n",
+   "Jeroen": "r",
    "Klaas": "a",
    "Ernst": "n",
    "Wim": "g",
@@ -431,7 +431,7 @@
    "Yannik": "g",
    "Godwin": "r",
    "Joël": "g",
-   "Jeroen": "n",
+   "Jeroen": "r",
    "Klaas": "a",
    "Ernst": "n",
    "Wim": "g",
@@ -444,7 +444,7 @@
    "Yannik": "g",
    "Godwin": "g",
    "Joël": "g",
-   "Jeroen": "n",
+   "Jeroen": "r",
    "Klaas": "a",
    "Ernst": "n",
    "Wim": "g",
@@ -457,7 +457,7 @@
    "Yannik": "n",
    "Godwin": "g",
    "Joël": "g",
-   "Jeroen": "n",
+   "Jeroen": "r",
    "Klaas": "a",
    "Ernst": "n",
    "Wim": "g",
@@ -470,7 +470,7 @@
    "Yannik": "n",
    "Godwin": "g",
    "Joël": "g",
-   "Jeroen": "n",
+   "Jeroen": "r",
    "Klaas": "a",
    "Ernst": "n",
    "Wim": "g",
@@ -483,7 +483,7 @@
    "Yannik": "n",
    "Godwin": "g",
    "Joël": "g",
-   "Jeroen": "n",
+   "Jeroen": "r",
    "Klaas": "a",
    "Ernst": "n",
    "Wim": "g",
@@ -496,7 +496,7 @@
    "Yannik": "n",
    "Godwin": "g",
    "Joël": "g",
-   "Jeroen": "n",
+   "Jeroen": "r",
    "Klaas": "a",
    "Ernst": "n",
    "Wim": "g",
@@ -509,7 +509,7 @@
    "Yannik": "n",
    "Godwin": "g",
    "Joël": "g",
-   "Jeroen": "n",
+   "Jeroen": "r",
    "Klaas": "a",
    "Ernst": "n",
    "Wim": "g",
@@ -522,7 +522,7 @@
    "Yannik": "n",
    "Godwin": "r",
    "Joël": "g",
-   "Jeroen": "n",
+   "Jeroen": "r",
    "Klaas": "a",
    "Ernst": "n",
    "Wim": "g",
@@ -535,7 +535,7 @@
    "Yannik": "n",
    "Godwin": "g",
    "Joël": "g",
-   "Jeroen": "n",
+   "Jeroen": "r",
    "Klaas": "a",
    "Ernst": "n",
    "Wim": "g",
@@ -548,7 +548,7 @@
    "Yannik": "n",
    "Godwin": "g",
    "Joël": "g",
-   "Jeroen": "n",
+   "Jeroen": "r",
    "Klaas": "a",
    "Ernst": "n",
    "Wim": "g",
@@ -561,7 +561,7 @@
    "Yannik": "n",
    "Godwin": "g",
    "Joël": "g",
-   "Jeroen": "n",
+   "Jeroen": "r",
    "Klaas": "a",
    "Ernst": "n",
    "Wim": "g",
@@ -574,7 +574,7 @@
    "Yannik": "n",
    "Godwin": "g",
    "Joël": "g",
-   "Jeroen": "n",
+   "Jeroen": "r",
    "Klaas": "a",
    "Ernst": "n",
    "Wim": "g",
@@ -591,12 +591,82 @@
    "Joël",
    "Enrico",
    "Ernst",
-   "Wim"
+   "Wim",
+   "Jeroen"
   ],
   "G.N.O. vs zvv Expres-Boys Breda": [
    "Enrico",
    "Ernst",
    "Roel"
+  ],
+  "G.N.O. vs Esseboom Advies & FD": [
+   "Jeroen"
+  ],
+  "zv De Zware Jongens vs G.N.O.": [
+   "Jeroen"
+  ],
+  "zvv T.O.V. vs G.N.O.": [
+   "Jeroen"
+  ],
+  "zvv Internacional 2 vs G.N.O.": [
+   "Jeroen"
+  ],
+  "Eversdijk vs G.N.O.": [
+   "Jeroen"
+  ],
+  "[Beker] Caribeans vibz vs G.N.O.": [
+   "Jeroen"
+  ],
+  "G.N.O. vs De Zlatan's": [
+   "Jeroen"
+  ],
+  "Southern Pearl Rovers vs G.N.O.": [
+   "Jeroen"
+  ],
+  "G.N.O. vs Westphal Kozijnen": [
+   "Jeroen"
+  ],
+  "Wsst Hill United vs G.N.O.": [
+   "Jeroen"
+  ],
+  "Zimmer Biomet vs G.N.O.": [
+   "Jeroen"
+  ],
+  "zvv Expres-Boys Breda vs G.N.O.": [
+   "Jeroen"
+  ],
+  "BOC '19 vs G.N.O.": [
+   "Jeroen"
+  ],
+  "[Beker] G.N.O. vs FC LSW": [
+   "Jeroen"
+  ],
+  "G.N.O. vs Wsst Hill United": [
+   "Jeroen"
+  ],
+  "Esseboom Advies & FD vs G.N.O.": [
+   "Jeroen"
+  ],
+  "G.N.O. vs zv De Zware Jongens": [
+   "Jeroen"
+  ],
+  "G.N.O. vs zvv T.O.V.": [
+   "Jeroen"
+  ],
+  "G.N.O. vs zvv Internacional 2": [
+   "Jeroen"
+  ],
+  "G.N.O. vs Eversdijk": [
+   "Jeroen"
+  ],
+  "De Zlatan's vs G.N.O.": [
+   "Jeroen"
+  ],
+  "G.N.O. vs Southern Pearl Rovers": [
+   "Jeroen"
+  ],
+  "Westphal Kozijnen vs G.N.O.": [
+   "Jeroen"
   ]
  }
 }
