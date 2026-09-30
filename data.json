@@ -1,7 +1,7 @@
 {
  "team": "gno",
  "teamLabel": "G.N.O.",
- "updated": "2026-09-29T06:37:54.759Z",
+ "updated": "2026-09-30T06:21:30.426Z",
  "players": [
   "Luuk",
   "Michel",
@@ -279,7 +279,7 @@
    "Klaas": "r",
    "Ernst": "a",
    "Wim": "a",
-   "Roel": "n",
+   "Roel": "g",
    "Enrico": "a"
   },
   "G.N.O. vs Esseboom Advies & FD": {
@@ -591,6 +591,7 @@
    "Joël",
    "Enrico",
    "Ernst",
+   "Roel",
    "Wim",
    "Jeroen"
   ],
