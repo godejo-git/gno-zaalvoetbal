@@ -1,7 +1,7 @@
 {
  "team": "gno",
  "teamLabel": "G.N.O.",
- "updated": "2026-10-05T07:14:59.982Z",
+ "updated": "2026-10-06T06:17:08.799Z",
  "players": [
   "Luuk",
   "Michel",
@@ -289,11 +289,11 @@
    "Godwin": "g",
    "Joël": "g",
    "Jeroen": "r",
-   "Klaas": "a",
+   "Klaas": "g",
    "Ernst": "r",
    "Wim": "g",
    "Roel": "r",
-   "Enrico": "n"
+   "Enrico": "r"
   },
   "zv De Zware Jongens vs G.N.O.": {
    "Luuk": "g",
@@ -602,10 +602,12 @@
    "Roel"
   ],
   "G.N.O. vs Esseboom Advies & FD": [
+   "Enrico",
    "Ernst",
    "Roel",
    "Jeroen",
-   "Yannik"
+   "Yannik",
+   "Klaas"
   ],
   "zv De Zware Jongens vs G.N.O.": [
    "Ernst",
