@@ -1,7 +1,7 @@
 {
  "team": "gno",
  "teamLabel": "G.N.O.",
- "updated": "2026-10-20T06:16:10.227Z",
+ "updated": "2026-10-21T06:21:41.910Z",
  "players": [
   "Luuk",
   "Michel",
@@ -323,7 +323,7 @@
   },
   "zvv Internacional 2 vs G.N.O.": {
    "Luuk": "g",
-   "Michel": "g",
+   "Michel": "r",
    "Yannik": "g",
    "Godwin": "g",
    "Joël": "g",
@@ -631,7 +631,8 @@
    "Jeroen"
   ],
   "zvv Internacional 2 vs G.N.O.": [
-   "Jeroen"
+   "Jeroen",
+   "Michel"
   ],
   "Eversdijk vs G.N.O.": [
    "Jeroen"
