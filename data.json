@@ -1,7 +1,7 @@
 {
  "team": "gno",
  "teamLabel": "G.N.O.",
- "updated": "2026-10-21T06:21:41.910Z",
+ "updated": "2026-10-25T10:10:21.363Z",
  "players": [
   "Luuk",
   "Michel",
@@ -298,7 +298,7 @@
   "zv De Zware Jongens vs G.N.O.": {
    "Luuk": "g",
    "Michel": "g",
-   "Yannik": "g",
+   "Yannik": "r",
    "Godwin": "g",
    "Joël": "g",
    "Jeroen": "r",
@@ -311,7 +311,7 @@
   "zvv T.O.V. vs G.N.O.": {
    "Luuk": "g",
    "Michel": "r",
-   "Yannik": "g",
+   "Yannik": "r",
    "Godwin": "g",
    "Joël": "g",
    "Jeroen": "r",
@@ -324,7 +324,7 @@
   "zvv Internacional 2 vs G.N.O.": {
    "Luuk": "g",
    "Michel": "r",
-   "Yannik": "g",
+   "Yannik": "r",
    "Godwin": "g",
    "Joël": "g",
    "Jeroen": "r",
@@ -611,11 +611,13 @@
   ],
   "zv De Zware Jongens vs G.N.O.": [
    "Ernst",
-   "Jeroen"
+   "Jeroen",
+   "Yannik"
   ],
   "zvv T.O.V. vs G.N.O.": [
    "Ernst",
-   "Jeroen"
+   "Jeroen",
+   "Yannik"
   ],
   "Southern Pearl Rovers vs G.N.O.": [
    "Ernst",
@@ -632,6 +634,7 @@
   ],
   "zvv Internacional 2 vs G.N.O.": [
    "Jeroen",
+   "Yannik",
    "Michel"
   ],
   "Eversdijk vs G.N.O.": [
