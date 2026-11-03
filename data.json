@@ -1,7 +1,7 @@
 {
  "team": "gno",
  "teamLabel": "G.N.O.",
- "updated": "2026-11-02T09:39:31.990Z",
+ "updated": "2026-11-03T07:46:39.630Z",
  "players": [
   "Luuk",
   "Michel",
@@ -315,7 +315,7 @@
    "Godwin": "g",
    "Joël": "g",
    "Jeroen": "r",
-   "Klaas": "a",
+   "Klaas": "r",
    "Ernst": "g",
    "Wim": "r",
    "Roel": "g",
@@ -328,7 +328,7 @@
    "Godwin": "g",
    "Joël": "g",
    "Jeroen": "r",
-   "Klaas": "a",
+   "Klaas": "g",
    "Ernst": "n",
    "Wim": "g",
    "Roel": "n",
@@ -341,7 +341,7 @@
    "Godwin": "g",
    "Joël": "g",
    "Jeroen": "r",
-   "Klaas": "a",
+   "Klaas": "g",
    "Ernst": "n",
    "Wim": "g",
    "Roel": "n",
@@ -354,7 +354,7 @@
    "Godwin": "g",
    "Joël": "g",
    "Jeroen": "r",
-   "Klaas": "a",
+   "Klaas": "g",
    "Ernst": "n",
    "Wim": "g",
    "Roel": "n",
@@ -367,7 +367,7 @@
    "Godwin": "g",
    "Joël": "g",
    "Jeroen": "r",
-   "Klaas": "a",
+   "Klaas": "g",
    "Ernst": "n",
    "Wim": "g",
    "Roel": "n",
@@ -380,7 +380,7 @@
    "Godwin": "g",
    "Joël": "g",
    "Jeroen": "r",
-   "Klaas": "a",
+   "Klaas": "g",
    "Ernst": "g",
    "Wim": "r",
    "Roel": "n",
@@ -393,7 +393,7 @@
    "Godwin": "g",
    "Joël": "g",
    "Jeroen": "r",
-   "Klaas": "a",
+   "Klaas": "g",
    "Ernst": "g",
    "Wim": "g",
    "Roel": "n",
@@ -613,12 +613,14 @@
    "Ernst",
    "Wim",
    "Jeroen",
-   "Yannik"
+   "Yannik",
+   "Klaas"
   ],
   "zvv Internacional 2 vs G.N.O.": [
    "Enrico",
    "Jeroen",
    "Yannik",
+   "Klaas",
    "Michel"
   ],
   "zv De Zware Jongens vs G.N.O.": [
@@ -630,24 +632,29 @@
   "Southern Pearl Rovers vs G.N.O.": [
    "Ernst",
    "Wim",
-   "Jeroen"
+   "Jeroen",
+   "Klaas"
   ],
   "G.N.O. vs Westphal Kozijnen": [
    "Ernst",
-   "Jeroen"
+   "Jeroen",
+   "Klaas"
   ],
   "G.N.O. vs zv De Zware Jongens": [
    "Ernst",
    "Jeroen"
   ],
   "Eversdijk vs G.N.O.": [
-   "Jeroen"
+   "Jeroen",
+   "Klaas"
   ],
   "[Beker] Caribeans vibz vs G.N.O.": [
-   "Jeroen"
+   "Jeroen",
+   "Klaas"
   ],
   "G.N.O. vs De Zlatan's": [
-   "Jeroen"
+   "Jeroen",
+   "Klaas"
   ],
   "Wsst Hill United vs G.N.O.": [
    "Jeroen"
