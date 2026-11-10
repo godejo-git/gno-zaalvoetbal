@@ -1,7 +1,7 @@
 {
  "team": "gno",
  "teamLabel": "G.N.O.",
- "updated": "2026-11-10T07:28:45.278Z",
+ "updated": "2026-11-10T10:42:28.877Z",
  "players": [
   "Luuk",
   "Michel",
@@ -39,7 +39,9 @@
    "datum": "16-9-2026",
    "tijd": "20:00",
    "zaal": "HaB",
-   "beker": false
+   "beker": false,
+   "event": false,
+   "end": "2026-09-16T21:30:00"
   },
   {
    "subject": "G.N.O. vs zvv Expres-Boys Breda",
@@ -47,7 +49,9 @@
    "datum": "23-9-2026",
    "tijd": "19:30",
    "zaal": "Rijs",
-   "beker": false
+   "beker": false,
+   "event": false,
+   "end": "2026-09-23T21:00:00"
   },
   {
    "subject": "G.N.O. vs BOC '19",
@@ -55,7 +59,9 @@
    "datum": "30-9-2026",
    "tijd": "21:00",
    "zaal": "HaB",
-   "beker": false
+   "beker": false,
+   "event": false,
+   "end": "2026-09-30T22:30:00"
   },
   {
    "subject": "G.N.O. vs Esseboom Advies & FD",
@@ -63,7 +69,9 @@
    "datum": "6-10-2026",
    "tijd": "21:00",
    "zaal": "Wb",
-   "beker": false
+   "beker": false,
+   "event": false,
+   "end": "2026-10-06T22:30:00"
   },
   {
    "subject": "zv De Zware Jongens vs G.N.O.",
@@ -71,7 +79,9 @@
    "datum": "26-10-2026",
    "tijd": "20:00",
    "zaal": "Oh",
-   "beker": false
+   "beker": false,
+   "event": false,
+   "end": "2026-10-26T21:30:00"
   },
   {
    "subject": "zvv T.O.V. vs G.N.O.",
@@ -79,7 +89,9 @@
    "datum": "4-11-2026",
    "tijd": "20:00",
    "zaal": "HaB",
-   "beker": false
+   "beker": false,
+   "event": false,
+   "end": "2026-11-04T21:30:00"
   },
   {
    "subject": "zvv Internacional 2 vs G.N.O.",
@@ -87,7 +99,9 @@
    "datum": "9-11-2026",
    "tijd": "20:00",
    "zaal": "Oh",
-   "beker": false
+   "beker": false,
+   "event": false,
+   "end": "2026-11-09T21:30:00"
   },
   {
    "subject": "Eversdijk vs G.N.O.",
@@ -95,7 +109,9 @@
    "datum": "16-11-2026",
    "tijd": "22:00",
    "zaal": "Oh",
-   "beker": false
+   "beker": false,
+   "event": false,
+   "end": "2026-11-16T23:30:00"
   },
   {
    "subject": "[Beker] Caribeans vibz vs G.N.O.",
@@ -103,7 +119,9 @@
    "datum": "24-11-2026",
    "tijd": "20:00",
    "zaal": "Ba",
-   "beker": true
+   "beker": true,
+   "event": false,
+   "end": "2026-11-24T21:30:00"
   },
   {
    "subject": "G.N.O. vs De Zlatan's",
@@ -111,7 +129,9 @@
    "datum": "30-11-2026",
    "tijd": "20:00",
    "zaal": "Oh",
-   "beker": false
+   "beker": false,
+   "event": false,
+   "end": "2026-11-30T21:30:00"
   },
   {
    "subject": "Southern Pearl Rovers vs G.N.O.",
@@ -119,7 +139,9 @@
    "datum": "10-12-2026",
    "tijd": "20:00",
    "zaal": "Rijs",
-   "beker": false
+   "beker": false,
+   "event": false,
+   "end": "2026-12-10T21:30:00"
   },
   {
    "subject": "G.N.O. vs Westphal Kozijnen",
@@ -127,7 +149,9 @@
    "datum": "17-12-2026",
    "tijd": "20:00",
    "zaal": "Oh",
-   "beker": false
+   "beker": false,
+   "event": false,
+   "end": "2026-12-17T21:30:00"
   },
   {
    "subject": "Wsst Hill United vs G.N.O.",
@@ -135,7 +159,9 @@
    "datum": "5-1-2027",
    "tijd": "20:00",
    "zaal": "Ba",
-   "beker": false
+   "beker": false,
+   "event": false,
+   "end": "2027-01-05T21:30:00"
   },
   {
    "subject": "Zimmer Biomet vs G.N.O.",
@@ -143,7 +169,19 @@
    "datum": "14-1-2027",
    "tijd": "20:00",
    "zaal": "Oh",
-   "beker": false
+   "beker": false,
+   "event": false,
+   "end": "2027-01-14T21:30:00"
+  },
+  {
+   "subject": "Winter BBQ, voetbal en verjaardag Godwin",
+   "start": "2027-01-16T14:00:00",
+   "datum": "16-1-2027",
+   "tijd": "14:00",
+   "zaal": "Nijkerk",
+   "beker": false,
+   "event": true,
+   "end": "2027-01-16T19:00:00"
   },
   {
    "subject": "zvv Expres-Boys Breda vs G.N.O.",
@@ -151,7 +189,9 @@
    "datum": "19-1-2027",
    "tijd": "21:00",
    "zaal": "Ba",
-   "beker": false
+   "beker": false,
+   "event": false,
+   "end": "2027-01-19T22:30:00"
   },
   {
    "subject": "BOC '19 vs G.N.O.",
@@ -159,7 +199,9 @@
    "datum": "27-1-2027",
    "tijd": "21:00",
    "zaal": "HaB",
-   "beker": false
+   "beker": false,
+   "event": false,
+   "end": "2027-01-27T22:30:00"
   },
   {
    "subject": "[Beker] G.N.O. vs FC LSW",
@@ -167,7 +209,9 @@
    "datum": "3-2-2027",
    "tijd": "20:00",
    "zaal": "HaB",
-   "beker": true
+   "beker": true,
+   "event": false,
+   "end": "2027-02-03T21:30:00"
   },
   {
    "subject": "G.N.O. vs Wsst Hill United",
@@ -175,7 +219,9 @@
    "datum": "11-2-2027",
    "tijd": "21:00",
    "zaal": "Oh",
-   "beker": false
+   "beker": false,
+   "event": false,
+   "end": "2027-02-11T22:30:00"
   },
   {
    "subject": "Esseboom Advies & FD vs G.N.O.",
@@ -183,7 +229,9 @@
    "datum": "16-2-2027",
    "tijd": "20:30",
    "zaal": "Ba",
-   "beker": false
+   "beker": false,
+   "event": false,
+   "end": "2027-02-16T22:00:00"
   },
   {
    "subject": "G.N.O. vs zv De Zware Jongens",
@@ -191,7 +239,9 @@
    "datum": "3-3-2027",
    "tijd": "21:00",
    "zaal": "HaB",
-   "beker": false
+   "beker": false,
+   "event": false,
+   "end": "2027-03-03T22:30:00"
   },
   {
    "subject": "G.N.O. vs zvv T.O.V.",
@@ -199,7 +249,9 @@
    "datum": "10-3-2027",
    "tijd": "21:00",
    "zaal": "HaB",
-   "beker": false
+   "beker": false,
+   "event": false,
+   "end": "2027-03-10T22:30:00"
   },
   {
    "subject": "G.N.O. vs zvv Internacional 2",
@@ -207,7 +259,9 @@
    "datum": "17-3-2027",
    "tijd": "20:00",
    "zaal": "HaB",
-   "beker": false
+   "beker": false,
+   "event": false,
+   "end": "2027-03-17T21:30:00"
   },
   {
    "subject": "G.N.O. vs Eversdijk",
@@ -215,7 +269,9 @@
    "datum": "24-3-2027",
    "tijd": "19:30",
    "zaal": "Rijs",
-   "beker": false
+   "beker": false,
+   "event": false,
+   "end": "2027-03-24T21:00:00"
   },
   {
    "subject": "De Zlatan's vs G.N.O.",
@@ -223,7 +279,9 @@
    "datum": "31-3-2027",
    "tijd": "22:00",
    "zaal": "HaB",
-   "beker": false
+   "beker": false,
+   "event": false,
+   "end": "2027-03-31T23:30:00"
   },
   {
    "subject": "G.N.O. vs Southern Pearl Rovers",
@@ -231,7 +289,9 @@
    "datum": "7-4-2027",
    "tijd": "20:00",
    "zaal": "HaB",
-   "beker": false
+   "beker": false,
+   "event": false,
+   "end": "2027-04-07T21:30:00"
   },
   {
    "subject": "Westphal Kozijnen vs G.N.O.",
@@ -239,7 +299,9 @@
    "datum": "14-4-2027",
    "tijd": "20:30",
    "zaal": "Rijs",
-   "beker": false
+   "beker": false,
+   "event": false,
+   "end": "2027-04-14T22:00:00"
   }
  ],
  "status": {
@@ -422,6 +484,19 @@
    "Klaas": "a",
    "Ernst": "n",
    "Wim": "g",
+   "Roel": "n",
+   "Enrico": "n"
+  },
+  "Winter BBQ, voetbal en verjaardag Godwin": {
+   "Luuk": "n",
+   "Michel": "n",
+   "Yannik": "n",
+   "Godwin": "n",
+   "Joël": "n",
+   "Jeroen": "n",
+   "Klaas": "n",
+   "Ernst": "n",
+   "Wim": "n",
    "Roel": "n",
    "Enrico": "n"
   },

@@ -262,7 +262,8 @@ function start(player){
   renderMatches();
 }
 
-function oppOf(subject){
+function oppOf(subject, ev){
+  if (ev) return { home: true, opp: subject, event: true };
   var b = subject.replace(/^\[Beker\]\s*/, "");
   var home = b.indexOf("G.N.O.") === 0;
   return { home: home,
@@ -271,7 +272,7 @@ function oppOf(subject){
 
 function renderMatches(){
   $("matches").innerHTML = upcoming.map(function(m, i){
-    var o = oppOf(m.subject);
+    var o = oppOf(m.subject, m.event);
     var cur = pick[m.subject] || base[m.subject];
     var hall = (data.halls && data.halls[m.zaal]) || m.zaal;
     var changed = pick[m.subject] && pick[m.subject] !== base[m.subject];
@@ -297,7 +298,7 @@ function renderMatches(){
       '<div class="top"><span class="dt">' + (m.datum || m.start.slice(0,10)) + ' \u00b7 ' +
         (m.tijd || m.start.slice(11,16)) + '</span>' +
         '<span class="opp">' + o.opp + '</span>' +
-        '<span class="badge ' + (o.home ? "home" : "away") + '">' + (o.home ? "THUIS" : "UIT") + '</span>' +
+        '<span class="badge ' + (o.home ? "home" : "away") + '">' + (o.event ? "\uD83C\uDF89 EVENEMENT" : (o.home ? "THUIS" : "UIT")) + '</span>' +
         (m.beker ? '<span class="badge beker">BEKER</span>' : '') +
         (i === 0 ? '<span class="badge nextb">EERSTVOLGENDE</span>' : '') +
       '</div>' +
