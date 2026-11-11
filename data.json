@@ -1,7 +1,7 @@
 {
  "team": "gno",
  "teamLabel": "G.N.O.",
- "updated": "2026-11-10T10:42:28.877Z",
+ "updated": "2026-11-11T07:18:31.358Z",
  "players": [
   "Luuk",
   "Michel",
@@ -489,9 +489,9 @@
   },
   "Winter BBQ, voetbal en verjaardag Godwin": {
    "Luuk": "n",
-   "Michel": "n",
-   "Yannik": "n",
-   "Godwin": "n",
+   "Michel": "g",
+   "Yannik": "g",
+   "Godwin": "g",
    "Joël": "n",
    "Jeroen": "n",
    "Klaas": "n",
