@@ -1,7 +1,7 @@
 {
  "team": "gno",
  "teamLabel": "G.N.O.",
- "updated": "2026-11-11T07:18:31.358Z",
+ "updated": "2026-11-17T07:27:30.373Z",
  "players": [
   "Luuk",
   "Michel",
@@ -401,12 +401,12 @@
    "Michel": "r",
    "Yannik": "r",
    "Godwin": "g",
-   "Joël": "g",
+   "Joël": "r",
    "Jeroen": "r",
    "Klaas": "g",
    "Ernst": "n",
    "Wim": "g",
-   "Roel": "n",
+   "Roel": "r",
    "Enrico": "n"
   },
   "[Beker] Caribeans vibz vs G.N.O.": {
@@ -419,7 +419,7 @@
    "Klaas": "g",
    "Ernst": "n",
    "Wim": "g",
-   "Roel": "n",
+   "Roel": "r",
    "Enrico": "n"
   },
   "G.N.O. vs De Zlatan's": {
@@ -488,7 +488,7 @@
    "Enrico": "n"
   },
   "Winter BBQ, voetbal en verjaardag Godwin": {
-   "Luuk": "n",
+   "Luuk": "r",
    "Michel": "g",
    "Yannik": "g",
    "Godwin": "g",
@@ -679,6 +679,12 @@
    "Yannik",
    "Klaas"
   ],
+  "Eversdijk vs G.N.O.": [
+   "Joël",
+   "Roel",
+   "Jeroen",
+   "Klaas"
+  ],
   "G.N.O. vs zvv Expres-Boys Breda": [
    "Enrico",
    "Ernst",
@@ -721,10 +727,6 @@
   "G.N.O. vs zv De Zware Jongens": [
    "Ernst",
    "Jeroen"
-  ],
-  "Eversdijk vs G.N.O.": [
-   "Jeroen",
-   "Klaas"
   ],
   "[Beker] Caribeans vibz vs G.N.O.": [
    "Jeroen",
