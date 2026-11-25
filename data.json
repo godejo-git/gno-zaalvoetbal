@@ -1,7 +1,7 @@
 {
  "team": "gno",
  "teamLabel": "G.N.O.",
- "updated": "2026-11-24T07:18:24.210Z",
+ "updated": "2026-11-25T07:18:07.357Z",
  "players": [
   "Luuk",
   "Michel",
@@ -492,7 +492,7 @@
    "Michel": "g",
    "Yannik": "g",
    "Godwin": "g",
-   "Joël": "n",
+   "Joël": "g",
    "Jeroen": "n",
    "Klaas": "n",
    "Ernst": "n",
@@ -684,6 +684,9 @@
    "Roel",
    "Jeroen",
    "Klaas"
+  ],
+  "Winter BBQ, voetbal en verjaardag Godwin": [
+   "Joël"
   ],
   "G.N.O. vs zvv Expres-Boys Breda": [
    "Enrico",
